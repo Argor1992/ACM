@@ -1,11 +1,12 @@
+package week2;
+
 import java.util.*;
 
-public class NumbersSet3 {
+public class NumbersSet {
     private static List<Integer> primes;
-    private static Map<Integer, List<Integer>> primeFactors = new HashMap<>();
 
     public static void main(String[] args) {
-        primes = getPrimeNumbers(10000);
+        primes = getPrimeNumbers((int) Math.ceil(Math.sqrt(10000)));
 
         Scanner in = new Scanner(System.in);
         int cases = Integer.parseInt(in.nextLine());
@@ -23,47 +24,36 @@ public class NumbersSet3 {
     }
 
     private static int solve(int a, int b, int p) {
-        int[] sets = new int[b+1];
-        Arrays.fill(sets, -1);
+        List<Set<Integer>> sets = new ArrayList<>();
+        for (int i = a; i <= b; i++) {
+            Set<Integer> list = new HashSet<>();
+            list.add(i);
+            sets.add(list);
+        }
 
         for (int i = a; i <= b; i++) {
+            Set<Integer> currentSet = getCurrentSet(sets, i);
             for (int j = i + 1; j <= b; j++) {
-                System.out.println("Values: " + i + " " + j);
-                Arrays.stream(sets).forEach(value -> System.out.print(value + " "));
-                System.out.println();
                 if (havePrimeFactor(i, j, p)) {
-                    join(sets, i, j);
-                    Arrays.stream(sets).forEach(value -> System.out.print(value + " "));
-                    System.out.println();
+                    Set<Integer> otherSet = getCurrentSet(sets, j);
+                    currentSet.addAll(otherSet);
                 }
             }
+            sets.add(currentSet);
         }
 
-        int numberOfSets = 0;
-        for(int i = a; i <= b; i++) {
-            if(sets[i] == -1) {
-                numberOfSets++;
+        return sets.size();
+    }
+
+    private static Set<Integer> getCurrentSet(List<Set<Integer>> sets, Integer a) {
+        for (Set<Integer> set : sets) {
+            if (set.contains(a)) {
+                sets.remove(set);
+                return set;
             }
+
         }
-
-        return numberOfSets;
-    }
-
-    private static void join(int[] sets, int i, int j) {
-        System.out.println("Join: " + i + " " + j);
-        int a = find(sets, i);
-        int b = find(sets, j);
-        if(a == b) return;
-        sets[a] = b;
-    }
-
-    private static int find(int[] sets, int a) {
-        System.out.println("Find: " + a);
-        if(sets[a] == -1) {
-            System.out.println("Found: " + a);
-            return a;
-        }
-        return sets[a] = find(sets, sets[a]);
+        return Collections.emptySet();
     }
 
     private static boolean havePrimeFactor(int a, int b, int p) {
@@ -78,25 +68,15 @@ public class NumbersSet3 {
     }
 
     private static List<Integer> getPrimeFactors(int a) {
-        if (primeFactors.get(a) != null)
-            return primeFactors.get(a);
-
         List<Integer> result = new ArrayList<>();
 
-        int n = a;
         for (int i = 0; i < primes.size(); i++) {
-            if (primes.get(i) > n) {
-                primeFactors.put(a, result);
+            if (primes.get(i) > a)
                 return result;
-            }
-
-            if (n % primes.get(i) == 0) {
+            if (a % primes.get(i) == 0)
                 result.add(primes.get(i));
-                n /= primes.get(i);
-            }
         }
 
-        primeFactors.put(a, result);
         return result;
     }
 

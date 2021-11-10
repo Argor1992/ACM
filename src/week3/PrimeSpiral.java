@@ -1,3 +1,4 @@
+package week3;
 
 import java.awt.*;
 import java.io.BufferedReader;
@@ -11,6 +12,13 @@ public class PrimeSpiral {
     public static final int LENGTH = 10_000;
 
     public static void main(String[] args) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        List<String[]> inputs = new ArrayList<>();
+        String input;
+        while ((input = in.readLine()) != null && !input.isEmpty()) {
+            inputs.add(input.split(" "));
+        }
+
         sieve = getPrimeNumbers();
         Map<Point, Integer> spiral = new HashMap<>();
         spiral.put(new Point(0, 0), 1);
@@ -59,17 +67,9 @@ public class PrimeSpiral {
             }
         });
 
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        List<Integer> results = new ArrayList<>();
-        String input;
-        while ((input = in.readLine()) != null && !input.isEmpty()) {
-            String[] number = input.split(" ");
-
-            results.add(getShortestPath(adjMatrix, Integer.parseInt(number[0]), Integer.parseInt(number[1])));
-        }
-
-        for (int i = 0; i < results.size(); i++) {
-            System.out.println("Case " + (i+1) + ": " + (results.get(i) ));
+        for (int i = 0; i < inputs.size(); i++) {
+            int result = getShortestPath(adjMatrix, Integer.parseInt(inputs.get(i)[0]), Integer.parseInt(inputs.get(i)[1]));
+            System.out.println("Case " + (i+1) + ": " + (result == -1 ? "impossible" : result));
         }
     }
 
