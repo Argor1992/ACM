@@ -7,28 +7,40 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 /**
- * Largest continuous block in the array (max sum of sub-array: Kadane Algorithm)
+ * FRANKFURT UAS EXERCISES WEEK 6, WS 21/22
  *
- * This is why dynamic is useful here:
- *
- * -2
- * -2, 15
- * -2, 15, -14
- * -2, 15, -14, 60
- * and so on: a lot of potential to remember stuff for later
- *
- * local_maximum[i] = max(A[i], A[i] + local_maximum[i-1])
- *
- *                      1   1
- *                  -5, 1  -4
- *              60, -5, 1  56
- *         -14, 60, -5, 1  42
- *     15, -14, 60, -5, 1  57
- * -2, 15, -14, 60, -5, 1  55
- *
- * -2, 15,   1, 61, 56, 57
+ * Problem: Radio Commercials
+ * Link: https://open.kattis.com/contests/pe4egm/problems/commercials
+ * @author Lukáš Poláček
+ * @author Thorsten Zieres, 1297197
+ * @version 1.0, 12/04/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.32
  */
 public class RadioCommercials {
+    /**
+     * Largest continuous block in the array (max sum of sub-array: Kadane Algorithm)
+     *
+     * This is why dynamic is useful here:
+     *
+     * -2
+     * -2, 15
+     * -2, 15, -14
+     * -2, 15, -14, 60
+     * and so on: a lot of potential to remember stuff for later
+     *
+     * local_maximum[i] = max(A[i], A[i] + local_maximum[i-1])
+     *
+     *                      1   1
+     *                  -5, 1  -4
+     *              60, -5, 1  56
+     *         -14, 60, -5, 1  42
+     *     15, -14, 60, -5, 1  57
+     * -2, 15, -14, 60, -5, 1  55
+     *
+     * -2, 15,   1, 61, 56, 57
+     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[] np = in.nextLine().split(" ");

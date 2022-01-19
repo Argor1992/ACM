@@ -4,6 +4,18 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
+ *
+ * Problem: ACM Contest Scoring
+ * Link: https://open.kattis.com/contests/qkxmff/problems/acm
+ * @author Andrew Harrington
+ * @author Thorsten Zieres, 1297197
+ * @version 1.0, 11/15/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.15
+ */
 public class ACMContestScoring {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

@@ -5,6 +5,18 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
+ *
+ * Problem: Words for Numbers
+ * Link: https://open.kattis.com/contests/qkxmff/problems/wordsfornumbers
+ * @author  David Sturgill
+ * @author Thorsten Zieres, 1297197
+ * @version 1.1, 11/15/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.16
+ */
 public class WorksForNumbers {
     public static final Map<Integer, String> WORD = Map.ofEntries(
             Map.entry(0, "zero"),

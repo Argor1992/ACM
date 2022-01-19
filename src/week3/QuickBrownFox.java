@@ -5,6 +5,18 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
+ *
+ * Problem: Quick Brown Fox
+ * Link: https://open.kattis.com/contests/qkxmff/problems/quickbrownfox
+ * @author  David Sturgill
+ * @author Thorsten Zieres, 1297197
+ * @version 1.0, 11/15/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.13
+ */
 public class QuickBrownFox {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

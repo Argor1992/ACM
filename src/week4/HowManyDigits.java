@@ -7,13 +7,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Stirlingformel als Näherung der Fakultät: sqrt(2*pi*n)*(n/e)^n
- * Davon kann man dann den log10 nehmen um die Stellen zu ermitteln:
+ * FRANKFURT UAS EXERCISES WEEK 4, WS 21/22
  *
- * k-1 <= log(n!) < k
- * k-1 <= 1/2log(2*pi*n) + nlog(n/e)
+ * Problem: How Many Digits?
+ * Link: https://open.kattis.com/contests/zr36jo/problems/howmanydigits
+ * @author  Greg Hamerly
+ * @author Thorsten Zieres, 1297197
+ * @version 1.0, 11/20/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.24
  */
 public class HowManyDigits {
+    /**
+     * Stirlingformel als Näherung der Fakultät: sqrt(2*pi*n)*(n/e)^n
+     * Davon kann man dann den log10 nehmen um die Stellen zu ermitteln:
+     *
+     * k-1 <= log(n!) < k
+     * k-1 <= 1/2log(2*pi*n) + nlog(n/e)
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 

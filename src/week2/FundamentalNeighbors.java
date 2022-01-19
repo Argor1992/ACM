@@ -6,8 +6,19 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 2, WS 21/22
+ *
+ * Problem: Fundamental Neighbors
+ * Link: https://open.kattis.com/contests/guve43/problems/fundamentalneighbors
+ * @author Greg Hamerly
+ * @author Thorsten Zieres, 1297197
+ * @version 1.1, 11/07/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.6
+ */
 public class FundamentalNeighbors {
 
     private static List<Integer> primes;

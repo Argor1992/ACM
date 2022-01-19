@@ -6,6 +6,18 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
+ *
+ * Problem: Mirror Images
+ * Link: https://open.kattis.com/contests/qkxmff/problems/mirror
+ * @author Alberta Collegiate Programming Contest 2016
+ * @author Thorsten Zieres, 1297197
+ * @version 1.4, 11/10/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.21
+ */
 public class MirrorImages {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

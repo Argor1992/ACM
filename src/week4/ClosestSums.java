@@ -1,12 +1,24 @@
 package week4;
 
-import com.sun.source.tree.Tree;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.TreeSet;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 4, WS 21/22
+ *
+ * Problem: Closest Sums
+ * Link: https://open.kattis.com/contests/zr36jo/problems/closestsums
+ * @author  Piotr Rudnicki
+ * @author Thorsten Zieres, 1297197
+ * @version 1.4, 11/20/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.26
+ */
 public class ClosestSums {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

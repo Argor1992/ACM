@@ -7,6 +7,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
+ *
+ * Problem: Pig Latin
+ * Link: https://open.kattis.com/contests/qkxmff/problems/piglatin
+ * @author Jack Rosenthal
+ * @author Thorsten Zieres, 1297197
+ * @version 1.0, 11/15/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.72
+ */
 public class PigLatin {
     public static final List<Character> vowels = List.of('a', 'e', 'i', 'o', 'u', 'y');
 

@@ -7,6 +7,18 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.List;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
+ *
+ * Problem: Prime Spiral
+ * Link: https://open.kattis.com/contests/qkxmff/problems/spiral
+ * @author Greg Hamerly
+ * @author Thorsten Zieres, 1297197
+ * @version 1.4, 11/10/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.59
+ */
 public class PrimeSpiral2 {
     public static boolean[] sieve;
     public static final int LENGTH = 10_000;

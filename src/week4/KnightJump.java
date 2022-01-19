@@ -4,6 +4,18 @@ import java.awt.*;
 import java.util.List;
 import java.util.*;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 4, WS 21/22
+ *
+ * Problem: Knight Jump
+ * Link: https://open.kattis.com/contests/zr36jo/problems/knightjump
+ * @author  Sidhant Bansal
+ * @author Thorsten Zieres, 1297197
+ * @version 1.0, 11/20/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.82
+ */
 public class KnightJump {
     public static final List<Movement> MOVEMENTS = List.of(
             new Movement(2, 1),

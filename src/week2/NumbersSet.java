@@ -2,11 +2,24 @@ package week2;
 
 import java.util.*;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 1, WS 21/22
+ *
+ * Problem: Number Sets
+ * Link: https://open.kattis.com/problems/numbersetseasy
+ * @author John Dethridge
+ * @author Thorsten Zieres, 1297197
+ * @version 1.9, 11/06/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.93
+ */
 public class NumbersSet {
     private static List<Integer> primes;
+    private static Map<Integer, List<Integer>> primeFactors = new HashMap<>();
 
     public static void main(String[] args) {
-        primes = getPrimeNumbers((int) Math.ceil(Math.sqrt(10000)));
+        primes = getPrimeNumbers(10000);
 
         Scanner in = new Scanner(System.in);
         int cases = Integer.parseInt(in.nextLine());
@@ -68,15 +81,25 @@ public class NumbersSet {
     }
 
     private static List<Integer> getPrimeFactors(int a) {
+        if (primeFactors.get(a) != null)
+            return primeFactors.get(a);
+
         List<Integer> result = new ArrayList<>();
 
+        int n = a;
         for (int i = 0; i < primes.size(); i++) {
-            if (primes.get(i) > a)
+            if (primes.get(i) > n) {
+                primeFactors.put(a, result);
                 return result;
-            if (a % primes.get(i) == 0)
+            }
+
+            if (n % primes.get(i) == 0) {
                 result.add(primes.get(i));
+                n /= primes.get(i);
+            }
         }
 
+        primeFactors.put(a, result);
         return result;
     }
 
