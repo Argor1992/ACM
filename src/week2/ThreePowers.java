@@ -18,6 +18,10 @@ import java.util.Scanner;
  * Runtime: 0.24
  */
 public class ThreePowers {
+    /**
+     * Number of elements in S: log x = n because n elements result in 2^n subsets
+     * > power set
+     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -50,6 +54,15 @@ public class ThreePowers {
 
     private static List<BigInteger> getSubSetAt(BigInteger[] set, BigInteger pos) {
         List<BigInteger> result = new ArrayList<>();
+
+        /*
+        goes through all combination:
+        0000
+        0001
+        0010
+        0011
+        and so on
+         */
         for (int j = 0; j < set.length; j++) {
             if ((pos.and(new BigInteger("1").shiftLeft(j))).compareTo(new BigInteger("0")) > 0)
                 result.add(set[j]);

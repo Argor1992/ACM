@@ -7,6 +7,18 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.List;
 
+/**
+ * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
+ *
+ * Problem: Prime Spiral
+ * Link: https://open.kattis.com/contests/qkxmff/problems/spiral
+ * @author Greg Hamerly
+ * @author Thorsten Zieres, 1297197
+ * @version 1.4, 11/10/2020
+ * Method : Ad-Hoc
+ * Status : Accepted
+ * Runtime: 0.59
+ */
 public class PrimeSpiral {
     public static boolean[] sieve;
     public static final int LENGTH = 10_000;
@@ -25,23 +37,29 @@ public class PrimeSpiral {
 
         boolean addOne = true;
         int numberOfIterations = 1;
-        int currentX = 0;
-        int currentY = 0;
+        Point currentPoint = new Point(0, 0);
         for (int i = 2; i <= LENGTH; ) {
 
             for (int j = 0; j < numberOfIterations && i <= LENGTH; j++, i++) {
                 if (addOne) {
-                    spiral.put(new Point(++currentX, currentY), i);
+                    currentPoint.x++;
                 } else {
-                    spiral.put(new Point(--currentX, currentY), i);
+                    currentPoint.x--;
+                }
+
+                if (!isPrime(i)) {
+                    spiral.put(new Point(currentPoint), i);
                 }
             }
 
             for (int j = 0; j < numberOfIterations && i <= LENGTH; j++, i++) {
                 if (addOne) {
-                    spiral.put(new Point(currentX, ++currentY), i);
+                    currentPoint.y++;
                 } else {
-                    spiral.put(new Point(currentX, --currentY), i);
+                    currentPoint.y--;
+                }
+                if (!isPrime(i)) {
+                    spiral.put(new Point(currentPoint), i);
                 }
             }
 
@@ -49,38 +67,21 @@ public class PrimeSpiral {
             addOne = !addOne;
         }
 
-        int[][] adjMatrix = new int[LENGTH+1][LENGTH+1];
-        spiral.forEach((point, number) -> {
-            if (!isPrime(number)) {
-                Integer neighbor1 = spiral.get(new Point(point.x + 1, point.y));
-                if (neighbor1 != null && !isPrime(neighbor1))
-                    adjMatrix[number][neighbor1] = 1;
-                Integer neighbor2 = spiral.get(new Point(point.x - 1, point.y));
-                if (neighbor2 != null && !isPrime(neighbor2))
-                    adjMatrix[number][neighbor2] = 1;
-                Integer neighbor3 = spiral.get(new Point(point.x, point.y + 1));
-                if (neighbor3 != null && !isPrime(neighbor3))
-                    adjMatrix[number][neighbor3] = 1;
-                Integer neighbor4 = spiral.get(new Point(point.x, point.y - 1));
-                if (neighbor4 != null && !isPrime(neighbor4))
-                    adjMatrix[number][neighbor4] = 1;
-            }
-        });
-
         for (int i = 0; i < inputs.size(); i++) {
-            int result = getShortestPath(adjMatrix, Integer.parseInt(inputs.get(i)[0]), Integer.parseInt(inputs.get(i)[1]));
-            System.out.println("Case " + (i+1) + ": " + (result == -1 ? "impossible" : result));
+            int result = getShortestPath(spiral, Integer.parseInt(inputs.get(i)[0]), Integer.parseInt(inputs.get(i)[1]));
+            System.out.println("Case " + (i + 1) + ": " + (result == -1 ? "impossible" : result));
         }
     }
 
-    private static int getShortestPath(int[][] graph, int start, int end) {
+    private static int getShortestPath(Map<Point, Integer> spiral, int start, int end) {
         if (start == end)
             return 0;
 
         Map<Integer, Node> q = new HashMap<>();
-        for (int i = 0; i < graph.length; i++) {
-            q.put(i, new Node(i, Integer.MAX_VALUE, null));
-        }
+        spiral.forEach((point, integer) -> q.put(integer, new Node(integer, point, Integer.MAX_VALUE, null)));
+
+        if (surroundedByPrimes(spiral, q.get(start), q.get(end)))
+            return -1;
 
         q.get(start).distance = 0;
         List<Node> s = new ArrayList<>();
@@ -95,19 +96,12 @@ public class PrimeSpiral {
 
             s.add(currentNode);
 
-            for (int i = 0; i < graph.length; i++) {
-                if (graph[currentNode.index][i] == 1) {
-                    Node n = q.get(i);
-                    if (n != null) {
-                        if (n.distance > currentNode.distance) {
-                            n.distance = currentNode.distance + 1;
-                            n.prevNode = currentNode;
-                        }
-                    }
-                }
-            }
+            updateNode(q.get(spiral.get(new Point(currentNode.coordinates.x + 1, currentNode.coordinates.y))), currentNode);
+            updateNode(q.get(spiral.get(new Point(currentNode.coordinates.x - 1, currentNode.coordinates.y))), currentNode);
+            updateNode(q.get(spiral.get(new Point(currentNode.coordinates.x, currentNode.coordinates.y + 1))), currentNode);
+            updateNode(q.get(spiral.get(new Point(currentNode.coordinates.x, currentNode.coordinates.y - 1))), currentNode);
 
-            if (currentNode.index == end) {
+            if (currentNode.number == end) {
                 break;
             }
         }
@@ -118,6 +112,34 @@ public class PrimeSpiral {
         return countPath(s.get(0), s.get(s.size() - 1));
     }
 
+    private static void updateNode(Node n, Node currentNode) {
+        if (n != null) {
+            if (n.distance > currentNode.distance) {
+                n.distance = currentNode.distance + 1;
+                n.prevNode = currentNode;
+            }
+        }
+    }
+
+    private static boolean surroundedByPrimes(Map<Point, Integer> spiral, Node start, Node end) {
+        if (
+                spiral.get(new Point(start.coordinates.x + 1, start.coordinates.y)) == null &&
+                        spiral.get(new Point(start.coordinates.x - 1, start.coordinates.y)) == null &&
+                        spiral.get(new Point(start.coordinates.x, start.coordinates.y + 1)) == null &&
+                        spiral.get(new Point(start.coordinates.x, start.coordinates.y - 1)) == null
+        )
+            return true;
+        if (
+                spiral.get(new Point(end.coordinates.x + 1, end.coordinates.y)) == null &&
+                        spiral.get(new Point(end.coordinates.x - 1, end.coordinates.y)) == null &&
+                        spiral.get(new Point(end.coordinates.x, end.coordinates.y + 1)) == null &&
+                        spiral.get(new Point(end.coordinates.x, end.coordinates.y - 1)) == null
+        )
+            return true;
+
+        return false;
+    }
+
     private static int countPath(Node start, Node end) {
         List<Node> path = new ArrayList<>();
 
@@ -125,7 +147,7 @@ public class PrimeSpiral {
             if (end == null)
                 return -1;
             path.add(end);
-            if (end.index == start.index)
+            if (end.number == start.number)
                 break;
             end = end.prevNode;
         }
@@ -148,23 +170,14 @@ public class PrimeSpiral {
     }
 
     private static class Node {
-        public int index;
-        //        public int number;
+        public int number;
+        public Point coordinates;
         public int distance;
-        //        public int estimatedDistance;
         public Node prevNode;
 
-//        public Node(int index, int number, int distance, int estimatedDistance, Node prevNode) {
-//            this.index = index;
-//            this.number = number;
-//            this.distance = distance;
-//            this.estimatedDistance = estimatedDistance;
-//            this.prevNode = prevNode;
-//        }
-
-
-        public Node(int index, int distance, Node prevNode) {
-            this.index = index;
+        public Node(int number, Point coordinates, int distance, Node prevNode) {
+            this.number = number;
+            this.coordinates = coordinates;
             this.distance = distance;
             this.prevNode = prevNode;
         }
