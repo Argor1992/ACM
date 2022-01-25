@@ -8,7 +8,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 10, WS 21/22
  *
  * Problem: Polygon Area
- * Link: https://open.kattis.com/contests/pvcykt/problems/polygonarea
+ * Link: https://open.kattis.com/problems/polygonarea
  * @author Per Austrin
  * @author Thorsten Zieres, 1297197
  * @version 1.2, 01/18/2021

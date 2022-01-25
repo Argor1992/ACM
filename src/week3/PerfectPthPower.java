@@ -8,7 +8,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
  *
  * Problem: Perfect Pth Powers
- * Link: https://open.kattis.com/contests/qkxmff/problems/perfectpowers
+ * Link: https://open.kattis.com/problems/perfectpowers
  * @author Gordon V. Cormack
  * @author Thorsten Zieres, 1297197
  * @version 1.3, 11/10/2020

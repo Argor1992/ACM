@@ -9,7 +9,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 1, WS 21/22
  *
  * Problem: Goldbach's Conjecture
- * Link: https://open.kattis.com/contests/guve43/problems/goldbach2
+ * Link: https://open.kattis.com/problems/goldbach2
  * @author Tom Fuller
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 11/01/2020

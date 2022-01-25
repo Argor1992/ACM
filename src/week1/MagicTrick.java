@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 1, WS 21/22
  *
  * Problem: Magic Trick
- * Link: https://open.kattis.com/contests/kp9a7t/problems/magictrick
+ * Link: https://open.kattis.com/problems/magictrick
  * @author ICPC North America
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 10/27/2020

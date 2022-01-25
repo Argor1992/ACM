@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 8, WS 21/22
  *
  * Problem: Santa Klas
- * Link: https://open.kattis.com/contests/nytf6n/problems/santaklas
+ * Link: https://open.kattis.com/problems/santaklas
  * @author Oskar Werkelin Ahlin
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 12/19/2020

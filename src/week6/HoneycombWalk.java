@@ -8,7 +8,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 6, WS 21/22
  *
  * Problem: Honeycomb Walk
- * Link: https://open.kattis.com/contests/pe4egm/problems/honey
+ * Link: https://open.kattis.com/problems/honey
  * @author Henrik Eriksson
  * @author Thorsten Zieres, 1297197
  * @version 1.2, 12/04/2020

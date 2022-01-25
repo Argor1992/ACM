@@ -8,7 +8,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 8, WS 21/22
  *
  * Problem: Kitten on a Tree
- * Link: https://open.kattis.com/contests/nytf6n/problems/kitten
+ * Link: https://open.kattis.com/problems/kitten
  * @author Godmar Back
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 12/19/2020

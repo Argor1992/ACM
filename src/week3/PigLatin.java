@@ -11,7 +11,7 @@ import java.util.List;
  * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
  *
  * Problem: Pig Latin
- * Link: https://open.kattis.com/contests/qkxmff/problems/piglatin
+ * Link: https://open.kattis.com/problems/piglatin
  * @author Jack Rosenthal
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 11/15/2020

@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 1, WS 21/22
  *
  * Problem: Tarifa
- * Link: https://open.kattis.com/contests/kp9a7t/problems/tarifa
+ * Link: https://open.kattis.com/problems/tarifa
  * @author Nikola Dmitrović and Nikola Pintarić
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 10/26/2020

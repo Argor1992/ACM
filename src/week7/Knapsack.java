@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * FRANKFURT UAS EXERCISES WEEK 4 - DUPLICATE, WS 21/22
+ * FRANKFURT UAS EXERCISES WEEK 7 - DUPLICATE 6, WS 21/22
  * The submission was after the contest!
  *
  * Problem: Knapsack

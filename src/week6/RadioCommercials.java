@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * FRANKFURT UAS EXERCISES WEEK 6, WS 21/22
  *
  * Problem: Radio Commercials
- * Link: https://open.kattis.com/contests/pe4egm/problems/commercials
+ * Link: https://open.kattis.com/problems/commercials
  * @author Lukáš Poláček
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 12/04/2020

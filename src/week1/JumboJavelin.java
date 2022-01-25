@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 1, WS 21/22
  *
  * Problem: Jumbo Javelin
- * Link: https://open.kattis.com/contests/kp9a7t/problems/jumbojavelin
+ * Link: https://open.kattis.com/problems/jumbojavelin
  * @author Jean Niklas L'orange
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 10/27/2020

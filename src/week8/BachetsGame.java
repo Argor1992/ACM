@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * FRANKFURT UAS EXERCISES WEEK 8, WS 21/22
  *
  * Problem: Bachet's Game
- * Link: https://open.kattis.com/contests/nytf6n/problems/bachetsgame
+ * Link: https://open.kattis.com/problems/bachetsgame
  * @author Piotr Rudnicki
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 12/20/2020

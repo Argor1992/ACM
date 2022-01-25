@@ -8,7 +8,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
  *
  * Problem: ACM Contest Scoring
- * Link: https://open.kattis.com/contests/qkxmff/problems/acm
+ * Link: https://open.kattis.com/problems/acm
  * @author Andrew Harrington
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 11/15/2020

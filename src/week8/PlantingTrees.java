@@ -7,7 +7,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 8, WS 21/22
  *
  * Problem: Planting Trees
- * Link: https://open.kattis.com/contests/nytf6n/problems/plantingtrees
+ * Link: https://open.kattis.com/problems/plantingtrees
  * @author Michał Pilipczuk
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 12/19/2020

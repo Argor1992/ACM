@@ -12,7 +12,7 @@ import java.util.PriorityQueue;
  * FRANKFURT UAS EXERCISES WEEK 9, WS 21/22
  *
  * Problem: Single source shortest path, non-negative weights
- * Link: https://open.kattis.com/contests/rxgmfr/problems/shortestpath1
+ * Link: https://open.kattis.com/problems/shortestpath1
  * @author Per Austrin
  * @author Thorsten Zieres, 1297197
  * @version 1.1, 01/10/2021

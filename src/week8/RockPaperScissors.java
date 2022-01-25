@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 8, WS 21/22
  *
  * Problem: Rock-Paper-Scissors Tournament
- * Link: https://open.kattis.com/contests/nytf6n/problems/rockpaperscissors
+ * Link: https://open.kattis.com/problems/rockpaperscissors
  * @author Gordon V. Cormack
  * @author Thorsten Zieres, 1297197
  * @version 1.3, 12/20/2020

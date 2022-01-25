@@ -10,7 +10,7 @@ import java.util.List;
  * FRANKFURT UAS EXERCISES WEEK 4, WS 21/22
  *
  * Problem: How Many Digits?
- * Link: https://open.kattis.com/contests/zr36jo/problems/howmanydigits
+ * Link: https://open.kattis.com/problems/howmanydigits
  * @author  Greg Hamerly
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 11/20/2020

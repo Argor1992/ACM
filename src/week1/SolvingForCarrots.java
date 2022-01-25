@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 1, WS 21/22
  *
  * Problem: Solving for Carrots
- * Link: https://open.kattis.com/contests/kp9a7t/problems/carrots
+ * Link: https://open.kattis.com/problems/carrots
  * @author Johan Sannemo and Oskar Werkelin Ahlin
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 10/26/2020

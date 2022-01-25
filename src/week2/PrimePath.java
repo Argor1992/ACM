@@ -6,7 +6,7 @@ import java.util.*;
  * FRANKFURT UAS EXERCISES WEEK 1, WS 21/22
  *
  * Problem: Prime Path
- * Link: https://open.kattis.com/contests/guve43/problems/primepath
+ * Link: https://open.kattis.com/problems/primepath
  * @author Henrik Eriksson
  * @author Thorsten Zieres, 1297197
  * @version 1.29, 11/05/2020

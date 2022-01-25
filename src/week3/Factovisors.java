@@ -9,7 +9,7 @@ import java.util.*;
  * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
  *
  * Problem: Factovisors
- * Link: https://open.kattis.com/contests/qkxmff/problems/factovisors
+ * Link: https://open.kattis.com/problems/factovisors
  * @author Waterloo Programming Contest 1999-01-31
  * @author Thorsten Zieres, 1297197
  * @version 2.0, 11/10/2020

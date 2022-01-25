@@ -8,7 +8,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
  *
  * Problem: Mixed Fractions
- * Link: https://open.kattis.com/contests/qkxmff/problems/mixedfractions
+ * Link: https://open.kattis.com/problems/mixedfractions
  * @author Michael Zmuda
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 11/10/2020

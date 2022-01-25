@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
  *
  * Problem: Alphabet Spam
- * Link: https://open.kattis.com/contests/qkxmff/problems/alphabetspam
+ * Link: https://open.kattis.com/problems/alphabetspam
  * @author Northwestern Europe Regional Contest (NWERC) 2014 Practice Session
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 11/10/2020

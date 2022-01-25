@@ -6,7 +6,7 @@ import java.util.*;
  * FRANKFURT UAS EXERCISES WEEK 9, WS 21/22
  *
  * Problem: Torn To Pieces
- * Link: https://open.kattis.com/contests/rxgmfr/problems/torn2pieces
+ * Link: https://open.kattis.com/problems/torn2pieces
  * @author Nathan Backman
  * @author Thorsten Zieres, 1297197
  * @version 1.3, 01/16/2021

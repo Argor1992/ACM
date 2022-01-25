@@ -8,7 +8,7 @@ import java.util.*;
  * FRANKFURT UAS EXERCISES WEEK 4, WS 21/22
  *
  * Problem: Knight Jump
- * Link: https://open.kattis.com/contests/zr36jo/problems/knightjump
+ * Link: https://open.kattis.com/problems/knightjump
  * @author  Sidhant Bansal
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 11/20/2020

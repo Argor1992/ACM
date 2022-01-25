@@ -11,7 +11,7 @@ import java.util.TreeSet;
  * FRANKFURT UAS EXERCISES WEEK 4, WS 21/22
  *
  * Problem: Closest Sums
- * Link: https://open.kattis.com/contests/zr36jo/problems/closestsums
+ * Link: https://open.kattis.com/problems/closestsums
  * @author  Piotr Rudnicki
  * @author Thorsten Zieres, 1297197
  * @version 1.4, 11/20/2020

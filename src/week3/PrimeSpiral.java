@@ -11,7 +11,7 @@ import java.util.List;
  * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
  *
  * Problem: Prime Spiral
- * Link: https://open.kattis.com/contests/qkxmff/problems/spiral
+ * Link: https://open.kattis.com/problems/spiral
  * @author Greg Hamerly
  * @author Thorsten Zieres, 1297197
  * @version 1.4, 11/10/2020

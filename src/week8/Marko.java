@@ -9,7 +9,7 @@ import java.util.stream.Stream;
  * FRANKFURT UAS EXERCISES WEEK 8, WS 21/22
  *
  * Problem: Marko
- * Link: https://open.kattis.com/contests/nytf6n/problems/marko
+ * Link: https://open.kattis.com/problems/marko
  * @author Dominik Gleich
  * @author Thorsten Zieres, 1297197
  * @version 1.1, 12/19/2020

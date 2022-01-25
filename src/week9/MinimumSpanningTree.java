@@ -6,7 +6,7 @@ import java.util.*;
  * FRANKFURT UAS EXERCISES WEEK 9, WS 21/22
  *
  * Problem: Minimum Spanning Tree
- * Link: https://open.kattis.com/contests/rxgmfr/problems/minspantree
+ * Link: https://open.kattis.com/problems/minspantree
  * @author Per Austrin
  * @author Thorsten Zieres, 1297197
  * @version 1.2, 01/16/2021

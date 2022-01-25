@@ -8,7 +8,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 6, WS 21/22
  *
  * Problem: Digit Sum
- * Link: https://open.kattis.com/contests/pe4egm/problems/digitsum
+ * Link: https://open.kattis.com/problems/digitsum
  * @author Benelux Algorithm Programming Contest (BAPC) 2012
  * @author Thorsten Zieres, 1297197
  * @version 1.1, 12/04/2020

@@ -9,7 +9,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 10, WS 21/22
  *
  * Problem: Hitting the Targets
- * Link: https://open.kattis.com/contests/pvcykt/problems/hittingtargets
+ * Link: https://open.kattis.com/problems/hittingtargets
  * @author Greg Hamerly
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 01/18/2021

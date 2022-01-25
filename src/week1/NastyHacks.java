@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * FRANKFURT UAS EXERCISES WEEK 1, WS 21/22
  *
  * Problem: Nasty Hacks
- * Link: https://open.kattis.com/contests/kp9a7t/problems/nastyhacks
+ * Link: https://open.kattis.com/problems/nastyhacks
  * @author Truls Amundsen Bjørklund
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 10/26/2020

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 8, WS 21/22
  *
  * Problem: Kornislav
- * Link: https://open.kattis.com/contests/nytf6n/problems/kornislav
+ * Link: https://open.kattis.com/problems/kornislav
  * @author Croatian Open Competition in Informatics
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 12/19/2020

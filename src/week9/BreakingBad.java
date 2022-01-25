@@ -6,7 +6,7 @@ import java.util.*;
  * FRANKFURT UAS EXERCISES WEEK 9, WS 21/22
  *
  * Problem: Breaking Bad
- * Link: https://open.kattis.com/contests/rxgmfr/problems/breakingbad
+ * Link: https://open.kattis.com/problems/breakingbad
  * @author Bjarki Ágúst Guðmundsson
  * @author Thorsten Zieres, 1297197
  * @version 2.2, 01/16/2021

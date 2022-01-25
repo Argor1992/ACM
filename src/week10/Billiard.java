@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FRANKFURT UAS EXERCISES WEEK 10, WS 21/22
  *
  * Problem: Billiard
- * Link: https://open.kattis.com/contests/pvcykt/problems/billiard
+ * Link: https://open.kattis.com/problems/billiard
  * @author Gordon V. Cormack
  * @author Thorsten Zieres, 1297197
  * @version 1.1, 01/24/2021

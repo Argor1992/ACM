@@ -9,7 +9,7 @@ import java.util.*;
  * FRANKFURT UAS EXERCISES WEEK 3, WS 21/22
  *
  * Problem: Words for Numbers
- * Link: https://open.kattis.com/contests/qkxmff/problems/wordsfornumbers
+ * Link: https://open.kattis.com/problems/wordsfornumbers
  * @author  David Sturgill
  * @author Thorsten Zieres, 1297197
  * @version 1.1, 11/15/2020
