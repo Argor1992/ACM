@@ -56,7 +56,6 @@ public class PolygonArea {
             // If the vertices are in
             // clockwise order, the difference evaluates to a
             // negative quantity
-
             double area = 0.5 * Math.abs(sum);
             boolean cw = sum < 0;
             System.out.println(cw ? String.format("CW %.1f", area) : String.format("CCW %.1f", area));
