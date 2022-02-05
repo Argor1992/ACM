@@ -15,8 +15,7 @@ import java.util.stream.Collectors;
  * Link: https://open.kattis.com/problems/longincsubseq
  * @author Per Austrin
  * @author Thorsten Zieres, 1297197
- * @version 1.6, 01/19/2021
- * Method : Ad-Hoc
+ * @version 1.6, 01/19/2022
  * Status : Accepted
  * Runtime: 1.04
  */

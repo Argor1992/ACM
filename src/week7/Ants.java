@@ -11,8 +11,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/ants
  * @author Piotr Rudnicki
  * @author Thorsten Zieres, 1297197
- * @version 1.2, 01/19/2021
- * Method : Ad-Hoc
+ * @version 1.2, 01/19/2022
  * Status : Accepted
  * Runtime: 0.86
  */

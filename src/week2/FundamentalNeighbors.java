@@ -14,8 +14,7 @@ import java.util.List;
  * Link: https://open.kattis.com/problems/fundamentalneighbors
  * @author Greg Hamerly
  * @author Thorsten Zieres, 1297197
- * @version 1.1, 11/07/2020
- * Method : Ad-Hoc
+ * @version 1.1, 11/07/2021
  * Status : Accepted
  * Runtime: 0.6
  */

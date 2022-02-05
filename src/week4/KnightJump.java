@@ -11,8 +11,7 @@ import java.util.*;
  * Link: https://open.kattis.com/problems/knightjump
  * @author  Sidhant Bansal
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 11/20/2020
- * Method : Ad-Hoc
+ * @version 1.0, 11/20/2021
  * Status : Accepted
  * Runtime: 0.82
  */

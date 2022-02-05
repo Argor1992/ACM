@@ -9,8 +9,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/magictrick
  * @author ICPC North America
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 10/27/2020
- * Method : Ad-Hoc
+ * @version 1.0, 10/27/2021
  * Status : Accepted
  * Runtime: 0.1
  */

@@ -9,8 +9,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/billiard
  * @author Gordon V. Cormack
  * @author Thorsten Zieres, 1297197
- * @version 1.1, 01/24/2021
- * Method : Ad-Hoc
+ * @version 1.1, 01/24/2022
  * Status : Accepted
  * Runtime: 0.15
  */

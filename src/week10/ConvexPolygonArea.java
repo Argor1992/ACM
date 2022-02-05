@@ -12,8 +12,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/convexpolygonarea
  * @author  Greg Hamerly
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 01/18/2021
- * Method : Ad-Hoc
+ * @version 1.0, 01/18/2022
  * Status : Accepted
  * Runtime: 0.17
  */

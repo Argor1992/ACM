@@ -12,8 +12,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/goldbach2
  * @author Tom Fuller
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 11/01/2020
- * Method : Bruteforce
+ * @version 1.0, 11/01/2021
  * Status : Accepted
  * Runtime: 0.74
  */

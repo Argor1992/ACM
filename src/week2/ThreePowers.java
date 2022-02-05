@@ -12,8 +12,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/threepowers
  * @author Piotr Rudnicki
  * @author Thorsten Zieres, 1297197
- * @version 1.3, 11/06/2020
- * Method : Ad-Hoc
+ * @version 1.3, 11/06/2021
  * Status : Accepted
  * Runtime: 0.24
  */

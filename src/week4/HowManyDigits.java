@@ -13,8 +13,7 @@ import java.util.List;
  * Link: https://open.kattis.com/problems/howmanydigits
  * @author  Greg Hamerly
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 11/20/2020
- * Method : Ad-Hoc
+ * @version 1.0, 11/20/2021
  * Status : Accepted
  * Runtime: 0.24
  */

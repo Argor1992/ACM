@@ -12,8 +12,7 @@ import java.util.*;
  * Link: https://open.kattis.com/problems/factovisors
  * @author Waterloo Programming Contest 1999-01-31
  * @author Thorsten Zieres, 1297197
- * @version 2.0, 11/10/2020
- * Method : Ad-Hoc
+ * @version 2.0, 11/10/2021
  * Status : Accepted
  * Runtime: 0.11
  */

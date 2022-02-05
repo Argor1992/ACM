@@ -11,8 +11,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/digitsum
  * @author Benelux Algorithm Programming Contest (BAPC) 2012
  * @author Thorsten Zieres, 1297197
- * @version 1.1, 12/04/2020
- * Method : Ad-Hoc
+ * @version 1.1, 12/04/2021
  * Status : Accepted
  * Runtime: 0.12
  */

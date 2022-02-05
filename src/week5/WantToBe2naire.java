@@ -11,7 +11,6 @@ import java.util.Scanner;
  * @author Don Reble
  * @author Thorsten Zieres, 1297197
  * @version 1.0, 01/19/2021
- * Method : Ad-Hoc
  * Status : Accepted
  * Runtime: 0.17
  */

@@ -13,8 +13,7 @@ import java.util.stream.Collectors;
  * Link: https://open.kattis.com/problems/mirror
  * @author Alberta Collegiate Programming Contest 2016
  * @author Thorsten Zieres, 1297197
- * @version 1.4, 11/10/2020
- * Method : Ad-Hoc
+ * @version 1.4, 11/10/2021
  * Status : Accepted
  * Runtime: 0.21
  */

@@ -9,8 +9,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/rockpaperscissors
  * @author Gordon V. Cormack
  * @author Thorsten Zieres, 1297197
- * @version 1.3, 12/20/2020
- * Method : Ad-Hoc
+ * @version 1.3, 12/20/2021
  * Status : Time Limit Exceeded
  * Runtime: > 1.0
  */

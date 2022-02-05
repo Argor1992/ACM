@@ -15,8 +15,7 @@ import java.util.PriorityQueue;
  * Link: https://open.kattis.com/problems/shortestpath1
  * @author Per Austrin
  * @author Thorsten Zieres, 1297197
- * @version 1.1, 01/10/2021
- * Method : Ad-Hoc
+ * @version 1.1, 01/10/2022
  * Status : Accepted
  * Runtime: 0.75
  */

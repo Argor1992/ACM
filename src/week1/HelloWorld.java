@@ -7,8 +7,7 @@ package week1;
  * Link: https://open.kattis.com/problems/hello
  * @author Kattis
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 10/26/2020
- * Method : Ad-Hoc
+ * @version 1.0, 10/26/2021
  * Status : Accepted
  * Runtime: 0.06
  */

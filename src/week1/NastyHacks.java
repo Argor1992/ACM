@@ -12,8 +12,7 @@ import java.util.stream.Collectors;
  * Link: https://open.kattis.com/problems/nastyhacks
  * @author Truls Amundsen Bjørklund
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 10/26/2020
- * Method : Ad-Hoc
+ * @version 1.0, 10/26/2021
  * Status : Accepted
  * Runtime: 0.12
  */

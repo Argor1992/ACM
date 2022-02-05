@@ -10,8 +10,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/kornislav
  * @author Croatian Open Competition in Informatics
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 12/19/2020
- * Method : Ad-Hoc
+ * @version 1.0, 12/19/2022
  * Status : Accepted
  * Runtime: 0.10
  */

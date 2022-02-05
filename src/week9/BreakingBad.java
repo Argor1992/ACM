@@ -9,8 +9,7 @@ import java.util.*;
  * Link: https://open.kattis.com/problems/breakingbad
  * @author Bjarki Ágúst Guðmundsson
  * @author Thorsten Zieres, 1297197
- * @version 2.2, 01/16/2021
- * Method : Ad-Hoc
+ * @version 2.2, 01/16/2022
  * Status : Accepted
  * Runtime: 0.85
  */

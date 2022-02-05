@@ -9,8 +9,7 @@ import java.util.*;
  * Link: https://open.kattis.com/problems/minspantree
  * @author Per Austrin
  * @author Thorsten Zieres, 1297197
- * @version 1.2, 01/16/2021
- * Method : Ad-Hoc
+ * @version 1.2, 01/16/2022
  * Status : Time Limit Exceeded
  * Runtime: > 2.0
  */

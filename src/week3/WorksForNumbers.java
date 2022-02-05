@@ -12,8 +12,7 @@ import java.util.*;
  * Link: https://open.kattis.com/problems/wordsfornumbers
  * @author  David Sturgill
  * @author Thorsten Zieres, 1297197
- * @version 1.1, 11/15/2020
- * Method : Ad-Hoc
+ * @version 1.1, 11/15/2021
  * Status : Accepted
  * Runtime: 0.16
  */

@@ -12,8 +12,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/quickbrownfox
  * @author  David Sturgill
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 11/15/2020
- * Method : Ad-Hoc
+ * @version 1.0, 11/15/2021
  * Status : Accepted
  * Runtime: 0.13
  */

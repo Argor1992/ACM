@@ -11,8 +11,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/kitten
  * @author Godmar Back
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 12/19/2020
- * Method : Ad-Hoc
+ * @version 1.0, 12/19/2021
  * Status : Accepted
  * Runtime: 0.11
  */

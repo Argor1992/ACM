@@ -11,8 +11,7 @@ import java.util.Scanner;
  * Link: https://open.kattis.com/problems/closestpair1
  * @author Per Austrin
  * @author Thorsten Zieres, 1297197
- * @version 1.0, 01/24/2021
- * Method : Ad-Hoc
+ * @version 1.0, 01/24/2022
  * Status : Accepted
  * Runtime: 1.31
  */

@@ -9,8 +9,7 @@ import java.util.*;
  * Link: https://open.kattis.com/problems/primepath
  * @author Henrik Eriksson
  * @author Thorsten Zieres, 1297197
- * @version 1.29, 11/05/2020
- * Method : Ad-Hoc
+ * @version 1.29, 11/05/2021
  * Status : Accepted
  * Runtime: 0.33
  */

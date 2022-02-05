@@ -12,8 +12,7 @@ import java.util.stream.Stream;
  * Link: https://open.kattis.com/problems/marko
  * @author Dominik Gleich
  * @author Thorsten Zieres, 1297197
- * @version 1.1, 12/19/2020
- * Method : Ad-Hoc
+ * @version 1.1, 12/19/2022
  * Status : Accepted
  * Runtime: 0.30
  */

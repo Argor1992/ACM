@@ -9,8 +9,7 @@ import java.util.*;
  * Link: https://open.kattis.com/problems/torn2pieces
  * @author Nathan Backman
  * @author Thorsten Zieres, 1297197
- * @version 1.3, 01/16/2021
- * Method : Ad-Hoc
+ * @version 1.3, 01/16/2022
  * Status : Accepted
  * Runtime: 0.10
  */
